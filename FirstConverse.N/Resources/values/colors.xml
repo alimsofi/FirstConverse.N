@@ -1,0 +1,15 @@
+﻿<resources>
+  <color name="window_background">#FFF5F5F5</color>
+  <color name="tabBackColor">#E71D32</color>
+  <color name="tabIndicatorColor">#FFFFFF</color>
+  <color name="splash_background">#FFFFFF</color>
+  <color name="cool_teal">#00B4A0</color>
+  <color name="cool_orange">#FF5003</color>
+  <color name="dark_blue">#004d99</color>
+  <color name="cool_grey_light">#262626</color>
+  <color name="my_teal">#00796B</color>
+  <color name="white">#FFFFFF</color>
+  <color name="black">#000000</color>
+  <color name="fc_color_red">#FF0000</color>
+  <color name="fc_color_brightgreen">#00FF00</color>
+</resources>

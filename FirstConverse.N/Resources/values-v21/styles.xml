@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+  <style name="Theme.FC_Design" parent="Base.Theme.FC_Design">
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="colorPrimary">#0277BD</item>
+    <item name="colorPrimaryDark">#01579B</item>
+    <item name="colorAccent">#FF5722</item>
+  </style>
+
+  <style name="Theme.FC_Design2" parent="Base.Theme.FC_Design">
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="colorPrimary">#0277BD</item>
+    <item name="colorPrimaryDark">#01579B</item>
+    <item name="colorAccent">#FF5722</item>
+  </style>
+
+  <!-- Style for Splash screen, define the screen background image here -->
+  <style name="MyTheme.Splash" parent="Base.Theme.FC_Design">
+    <item name="android:windowBackground">@drawable/new_splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>af4e0e4d-9a82-4fa7-9309-fa89f4cd8cf1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FirstConverse.App</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)UI Models.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Registration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service Layer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)User Model.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<!--android:background="@drawable/list_item_bg"-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bg"
+        android:orientation="horizontal"
+        android:layout_margin="0dip"
+        android:layout_marginBottom="0dip"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp">
+    <!-- ListRow Left side Thumbnail image -->
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:padding="5dip"
+            android:minWidth="25px"
+            android:minHeight="25px" />
+    <!-- Rightend Arrow -->
+        <ImageView
+            android:id="@+id/right_arrow"
+            android:contentDescription="Go"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/next" />
+    <!-- Head-->
+        <TextView
+            android:id="@+id/lblHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/list_image"
+            android:layout_marginLeft="5dip"
+            android:layout_centerVertical="false"
+            android:text="Header content goes here"
+            android:textColor="#008080"
+            android:textSize="15dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp" />
+        <TextView
+            android:id="@+id/lblFormAction"
+            android:textSize="15dip"
+            android:textColor="#F9095D"
+            android:text="View"
+            android:layout_toRightOf="@+id/lblHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:paddingRight="5dip" />
+    <!-- Subject Line-->
+        <LinearLayout
+            android:id="@+id/midLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblHead"
+            android:padding="5dip"
+            android:layout_alignParentRight="false">
+            <refractored.controls.CircleImageView
+                android:id="@+id/avatar"
+                android:elevation="3dp"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/cheese_3"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/lblSubHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblHead"
+                android:layout_alignLeft="@+id/lblHead"
+                android:layout_centerHorizontal="true"
+                android:text="subject line goes test data added here some more text is displayed here"
+                android:textColor="#005448"
+                android:textSize="12dip"
+                android:paddingRight="0dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="4dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lowerLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/midLayout"
+            android:padding="5dip"
+            android:layout_alignParentRight="false">
+            <TextView
+                android:id="@+id/lblPriority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dip"
+                android:textColor="#3498DB"
+                android:text="High"
+                android:layout_marginRight="25dip"
+                android:layout_gravity="left" />
+            <TextView
+                android:id="@+id/lblSender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dip"
+                android:layout_marginRight="15dip"
+                android:textColor="#3498DB"
+                android:text="Sent By: AliM Sofi"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/lblStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dip"
+                android:textColor="#3498DB"
+                android:text="25th Mar 2016 18:37"
+                android:layout_gravity="right"
+                android:gravity="right" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

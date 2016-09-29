@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="VectorCompat" is-shell="true">
+  <name>VectorCompat</name>
+  <publisher>Xamarin Inc</publisher>
+  <publisher-url>http://xamarin.com/</publisher-url>
+  <src-url>https://github.com/wnafee/vector-compat</src-url>
+  <version>1.0.5.0</version>
+  <summary>A support library for VectorDrawable and AnimatedVectorDrawable classes introduced in Lollipop.</summary>
+  <packages>
+    <package id="VectorCompat" version="1.0.5.0" framework="android" />
+  </packages>
+  <samples>
+    <sample id="VectorCompatSample">
+      <name>Android Sample</name>
+      <summary>Android Sample</summary>
+    </sample>
+  </samples>
+</component>

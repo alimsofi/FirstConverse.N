@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="tag_textBox" />
+  <item type="id" name="tag_multiLine" />
+  <item type="id" name="tag_checkbox" />
+  <item type="id" name="tag_datecontrol" />
+  <item type="id" name="tag_listbox" />
+  <item type="id" name="tag_combobox" />
+</resources>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="detail_backdrop_height">200dp</dimen>
+  <dimen name="card_margin">10dp</dimen>
+  <dimen name="fab_margin">26dp</dimen>
+  <dimen name="list_item_avatar_size">40dp</dimen>
+  <dimen name="list_item_profile_size">100dp</dimen>
+  <dimen name="tab_max_width">140dp</dimen>
+</resources>
